@@ -25,7 +25,8 @@ let package = Package(
                 "AESc",
                 .product(name: "AWSCore", package: "aws-sdk-ios-spm"),
                 .product(name: "AWSAPIGateway", package: "aws-sdk-ios-spm"),
-                .product(name: "AWSIoT", package: "aws-sdk-ios-spm")
+                .product(name: "AWSIoT", package: "aws-sdk-ios-spm"),
+                .product(name: "AWSCognitoIdentityProvider", package: "aws-sdk-ios-spm")
             ],
             path: "Sources/SesameSDK",
             resources: [
